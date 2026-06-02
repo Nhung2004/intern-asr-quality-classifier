@@ -1,0 +1,70 @@
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# Data & Models
+/data/
+/models/
+*.pkl
+*.pt
+*.h5
+*.onnx
+*.pth
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Reports & outputs
+*.html
+*.pdf
+*.csv
+!/data/labels.csv
+
+# Temporary files
+*.tmp
+*.temp
